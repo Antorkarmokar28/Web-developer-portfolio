@@ -35,6 +35,9 @@ body{
     background-color: #FFF8F3;
     padding-left: 39px;
 }
+section{
+    margin-bottom: 130px;
+}
 /* nav style */
 .logo{
     color:rgb(53, 52, 52);
@@ -144,3 +147,36 @@ main{
     color: rgb(53, 52, 52);
 }
 /* about section style end */
+/* what i do section style start */
+.what-i-do-title{
+    text-align: center;
+    color: rgb(53, 52, 52);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.what-i-dodescription{
+    text-align: center;
+    font-size: 17px;
+    color: #00000075;
+    margin-bottom: 30px;
+}
+.what-i-do-container{
+    display: flex;
+    justify-content: space-around;
+}
+.what-i-do-info{
+    padding: 25px;
+    box-shadow: -9px 13px 13px 0px #6a696636;
+    margin-right: 31px;
+    border-radius: 5px;
+    border: 1px solid #00000038;
+    justify-content: center;
+}
+.what-i-do-info h3{
+    margin: 10px 0px;
+    color: rgb(53, 52, 52);
+}
+.what-i-do-info p{
+    color: #00000075;
+}
+/* what i do section style end */
