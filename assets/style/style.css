@@ -33,6 +33,7 @@ body{
 }
 .header{
     background-color: #FFF8F3;
+    padding-left: 39px;
 }
 /* nav style */
 .logo{
@@ -68,13 +69,13 @@ nav .nav-menu li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: url("../images/header_bg.png");
-    background-position: bottom right;
+    background: url('../images/header_bg.png'), url('../images/developer.png');
+    background-position: bottom right, top left;
     background-repeat: no-repeat;
 }
 .banner-text{
-    width: 536px;
-    margin-left: 173px;
+    width: 394px;
+    margin-left: 71px;
 }
 .title-greeting{
     font-size: 42px;
@@ -89,7 +90,7 @@ nav .nav-menu li a{
 }
 .header-description{
     color: rgb(53 52 52 / 38%);
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     margin-bottom: 24px;
 }
@@ -101,3 +102,45 @@ nav .nav-menu li a{
     width: 100%;
     height: 100%;
 }
+/* main section style start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main section style end */
+/* about section style start */
+.about{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.about-description{
+    color: #00000075;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-info h3{
+    color: #00000075;
+    font-style: normal;
+    font-weight:300;
+    font-size: 17px;
+}
+.about-info p{
+    font-weight: 700;
+    color: rgb(53, 52, 52);
+}
+/* about section style end */
