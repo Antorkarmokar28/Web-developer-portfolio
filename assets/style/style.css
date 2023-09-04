@@ -180,3 +180,40 @@ main{
     color: #00000075;
 }
 /* what i do section style end */
+/* resume section style start */
+.resume-title{
+    text-align: center;
+    color: rgb(53, 52, 52);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap:30px;
+}
+.resume-details{
+    padding: 20px 0px;
+}
+.resume-info h3{
+    color: rgb(53, 52, 52);
+    margin-bottom: 10px;
+}
+.resume-info .resume-details h4{
+    color: rgb(53, 52, 52);
+    margin-bottom: 10px;
+}
+.resume-info .resume-details h5{
+    color: #00000075;
+    margin-bottom: 10px;
+}
+.resume-info .resume-details p{
+    font-size: 15px;
+    color: #00000075;
+}
+#primary-btn-2{
+    width: 163px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/* resume section style end */
